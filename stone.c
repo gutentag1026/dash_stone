@@ -5,7 +5,7 @@ void	print_nbr(size_t nbr)
 {
 	if (nbr > 9)
 	{
-		print_nbr(nbr /= 10);
+		print_nbr(nbr / 10);
 		print_nbr(nbr % 10);
 	}
 	else if (nbr <= 9)
